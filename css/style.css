@@ -390,4 +390,12 @@ body {
     order: -1;
 }
 
+.videoSobre-video {
+	margin: 0 auto;
+}
+
+videoSobre .container {
+    flex-direction: column;
+}
+
 }
