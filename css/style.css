@@ -328,6 +328,10 @@ body {
 	margin-bottom: 1%;
 }
 
+.videoSobre .container {
+	display: flex;
+}
+
 .videoSobre-sobre {
     text-align: center;
     display: flex;
@@ -341,6 +345,7 @@ body {
 
 .videoSobre-video {
     flex-grow: 1;
+	flex-shrink: 2;
 }
 
 /* parte mobile */
@@ -394,7 +399,7 @@ body {
 	margin: 0 auto;
 }
 
-videoSobre .container {
+.videoSobre .container {
     flex-direction: column;
 }
 
